@@ -1,44 +1,43 @@
 
+
 # 🏏 IPL Winner Checker
 
-A fun and interactive DOM-based project that randomly displays **IPL teams**, their **captains**, **origins**, and **number of IPL titles** — with dynamic background images and an intro video overlay.
+A fun and interactive DOM-based project that randomly displays **IPL teams**, their **captains**, **origins**, and number of **IPL titles** — with dynamic backgrounds and intro video overlay.
 
 ---
 
 ## 🔗 Live Demo
 
-👉 **View Project Online:**
-[https://vikaskumar098.github.io/DOM-Project-1/](https://vikaskumar098.github.io/DOM-Project-1/)
+👉 **[Click Here to View Live](https://vikaskumar098.github.io/DOM-Project-1/)**
 
 ## 📦 GitHub Repository
 
-👉 **Source Code:**
-[https://github.com/vikaskumar098/DOM-Project-1.git](https://github.com/vikaskumar098/DOM-Project-1.git)
+👉 **[Click Here for Source Code](https://github.com/vikaskumar098/DOM-Project-1)**
 
 ---
 
 ## 🌟 Features
 
-* 🎥 Auto-play intro background video
-* 🖼️ Dynamic backgrounds based on selected team
+* 🎥 Auto-play intro video
+* 🖼️ Dynamic background images
 * 🔀 Random IPL team generator
-* ✨ Clean UI with blur & shadow effects
-* 📊 Shows wins, captain & team origin
-* 🧊 Fully DOM-based interactivity
+* 📊 Shows wins, captain & origin
+* ✨ Clean glass-effect UI
+* 🧊 Fully DOM-based logic
 
 ---
 
 ## 📸 Preview
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/60a5938b-6efe-4364-a94f-666f81e9ed02" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/47622a51-3c03-4258-99b2-5aec1a8cc546" />
+
 
 ---
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/6b382b0d-1c71-4ba6-a80c-7b2429193701" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3c275005-35a6-414e-b999-1b711b04dcea" />
 
 
-
-```
+```md
 ![App Screenshot](./screenshot.png)
 ```
 
@@ -46,12 +45,12 @@ A fun and interactive DOM-based project that randomly displays **IPL teams**, th
 
 ## 🛠️ Tech Stack
 
-| Technology           | Used For                 |
-| -------------------- | ------------------------ |
-| **HTML5**            | Page structure           |
-| **CSS3**             | UI, animations & effects |
-| **JavaScript (DOM)** | Logic & interactivity    |
-| **GitHub Pages**     | Hosting                  |
+| Technology       | Used For          |
+| ---------------- | ----------------- |
+| HTML5            | Structure         |
+| CSS3             | Styling & effects |
+| JavaScript (DOM) | Logic             |
+| GitHub Pages     | Hosting           |
 
 ---
 
@@ -59,10 +58,10 @@ A fun and interactive DOM-based project that randomly displays **IPL teams**, th
 
 ```
 📦 DOM-Project-1
- ┣ 📜 index.html
- ┣ 📜 style.css
- ┣ 📜 script.js
- ┣ 📁 images/
+ ┣ index.html
+ ┣ style.css
+ ┣ script.js
+ ┣ images/
  ┃ ┣ CSK.png
  ┃ ┣ MI.jpg
  ┃ ┣ RCB.png
@@ -70,7 +69,7 @@ A fun and interactive DOM-based project that randomly displays **IPL teams**, th
  ┃ ┣ SRH.jpg
  ┃ ┣ PBKS.png
  ┃ ┗ DC.jpg
- ┗ 📁 videos/
+ ┗ videos/
    ┗ introo.mp4
 ```
 
@@ -78,27 +77,26 @@ A fun and interactive DOM-based project that randomly displays **IPL teams**, th
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/vikaskumar098/DOM-Project-1.git
 ```
 
-### 2️⃣ Run locally
+### 2️⃣ Run the Project
 
 Open in VS Code → **Run with Live Server**
 
 ---
 
-## 🧠 Core Logic (JavaScript)
+## 🧠 Core JavaScript Logic
 
 ```js
 btn.addEventListener("click", function () {
     let winner = arr[Math.floor(Math.random() * arr.length)];
 
-    h1.innerHTML =
-        `${winner.team} has won ${winner.wins} times in IPL! 
-        ${winner.captain} is the captain from ${winner.origin}.`;
+    h1.innerHTML = `${winner.team} has won ${winner.wins} times in IPL! 
+    ${winner.captain} is the captain from ${winner.origin}.`;
 
     main.style.backgroundImage = `url(${winner.primary})`;
     main.style.color = winner.secondry;
@@ -110,13 +108,13 @@ btn.addEventListener("click", function () {
 
 ## 👤 Connect With Me
 
-**LinkedIn:** [https://www.linkedin.com/in/vikas0905/](https://www.linkedin.com/in/vikas0905/)
+**🔗 LinkedIn:** **[Vikas Kumar](https://www.linkedin.com/in/vikas0905/)**
 
 ---
 
 ## ⭐ Support
 
-If this project helped you or looks cool — please ⭐ the repository!
+If you like this project, consider giving it a **⭐ star** on GitHub!
 
 ---
 
