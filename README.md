@@ -31,6 +31,9 @@ A fun and interactive DOM-based project that randomly displays **IPL teams**, th
 ## 📸 Preview
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/60a5938b-6efe-4364-a94f-666f81e9ed02" />
+
+---
+
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/6b382b0d-1c71-4ba6-a80c-7b2429193701" />
 
 
